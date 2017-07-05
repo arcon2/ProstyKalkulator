@@ -21,13 +21,23 @@ public class MarsApplication
 
         System.out.println("Zwiększ prędkość do 3");
         spirit.speed=3;
+        opportunity.speed=4;
+
         System.out.println("Zwiększono prędkość do "+spirit.speed);
         spirit.showAttributes();
+        opportunity.showAttributes();
+
         System.out.println("Zmiana tem na -90");
         spirit.temperature=-90;
+        opportunity.temperature=-80;
+
         spirit.showAttributes();
+        opportunity.showAttributes();
+
         System.out.println("Sprawdzanie tem");
         spirit.checkTemperature();
+        opportunity.checkTemperature();
         spirit.showAttributes();
+        opportunity.showAttributes();
     }
 }
