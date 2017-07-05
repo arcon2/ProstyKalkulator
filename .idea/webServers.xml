@@ -5,6 +5,9 @@
       <webServer id="519842d8-b715-4d8e-854e-a59c597a0cea" name="https://github.com/arcon2/java21" url="https://github.com/arcon2/java21">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="73e837fb-0246-430b-b907-55c62db130b5" name="https://github.com/arcon2/java21 (1)" url="https://github.com/arcon2/">
+        <fileTransfer port="0" mountedRoot="H:\Java 2\Java21" accessType="MOUNT" />
+      </webServer>
     </option>
   </component>
 </project>
