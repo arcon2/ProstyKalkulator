@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="https://github.com/arcon2/java21" uploadOnCheckin="519842d8-b715-4d8e-854e-a59c597a0cea">
+  <component name="PublishConfigData" serverName="https://github.com/arcon2/java21">
     <serverData>
       <paths name="https://github.com/arcon2/java21">
         <serverdata>
@@ -9,7 +9,13 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="https://github.com/arcon2/java21 (1)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
     </serverData>
-    <option name="myUploadOnCheckinName" value="https://github.com/arcon2/java21" />
   </component>
 </project>
