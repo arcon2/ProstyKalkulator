@@ -39,5 +39,6 @@ public class MarsApplication
         opportunity.checkTemperature();
         spirit.showAttributes();
         opportunity.showAttributes();
+
     }
 }
