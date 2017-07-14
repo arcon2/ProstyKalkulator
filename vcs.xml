@@ -16,7 +16,7 @@
         </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="H:\Java 2\Java21days" />
+    <option name="cloneParentDir" value="H:\Java 2\Java21days\out" />
   </component>
   <component name="VcsApplicationSettings">
     <option name="PATCH_STORAGE_LOCATION" value="$USER_HOME$/Desktop/https:/github.com/arcon2" />
