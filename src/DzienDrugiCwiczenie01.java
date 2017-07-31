@@ -1,4 +1,4 @@
-public class DzienDrugiCwiczenie
+public class DzienDrugiCwiczenie01
 {
     public static void main(String[] args)
     {
