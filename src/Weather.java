@@ -27,5 +27,6 @@ public class Weather
         cel=cel+32;
         System.out.println(cel+" stopni Fahrenheita");
 
+
     }
 }
