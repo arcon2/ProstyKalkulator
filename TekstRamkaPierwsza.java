@@ -53,6 +53,7 @@ public class TekstRamkaPierwsza extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
 
+
         TekstRamkaPierwsza tekstRamkaPierwsza = new TekstRamkaPierwsza();
         RamkaDruga ramkaDruga = new RamkaDruga();
         RamkaPierwsza ramkaPierwsza = new RamkaPierwsza();
