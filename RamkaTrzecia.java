@@ -19,7 +19,6 @@ public class RamkaTrzecia extends JFrame implements ActionListener {
         ramkaTrzecia.add(label);
 
 
-
         return ramkaTrzecia;
 
     }

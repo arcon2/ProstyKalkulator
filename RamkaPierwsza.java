@@ -1,6 +1,7 @@
 package Program;
 
 import javax.swing.*;
+
 import javax.swing.event.AncestorListener;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -25,7 +26,8 @@ public class RamkaPierwsza extends JFrame implements ActionListener {
         ramkaPierwsza.setBounds(0, 0, 0, 0);
         ramkaPierwsza.add(ramkaTrzecia.ramkaTrzecia());
         ramkaPierwsza.add(ramkaDruga.ramkaDruga());
-        ramkaPierwsza.setVisible(true);
+
+
 
 
 
@@ -33,9 +35,13 @@ public class RamkaPierwsza extends JFrame implements ActionListener {
 
     }
 
+
+
     @Override
     public void actionPerformed(ActionEvent e) {
 
 
     }
+
+
 }

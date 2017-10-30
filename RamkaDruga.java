@@ -17,6 +17,7 @@ public class RamkaDruga extends JFrame implements ActionListener {
         JPanel ramkaDruga = new JPanel();
 
         ramkaDruga.setLayout(new FlowLayout(FlowLayout.CENTER));
+
         ramkaDruga.setSize(100, 600);
         ramkaDruga.setBackground(Color.BLUE);
         ramkaDruga.add(buttonDodaj);
@@ -24,7 +25,7 @@ public class RamkaDruga extends JFrame implements ActionListener {
         ramkaDruga.add(buttonWyjscie);
 
 
-        ramkaDruga.setVisible(true);
+        //ramkaDruga.setVisible(true);
 
 
         return ramkaDruga;
