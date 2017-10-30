@@ -1,6 +1,8 @@
 package Program;
 
 import javax.swing.*;
+
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -22,6 +24,8 @@ public class Dane extends JFrame implements ActionListener {
         RamkaPierwsza ramkaPierwsza = new RamkaPierwsza();
         add(ramkaPierwsza.ramkaPierwsza());
 
+        RamkaDruga ramkaDruga = new RamkaDruga();
+
 
     }
 
@@ -32,9 +36,9 @@ public class Dane extends JFrame implements ActionListener {
 
     }
 
+
     @Override
     public void actionPerformed(ActionEvent e) {
-
 
     }
 }

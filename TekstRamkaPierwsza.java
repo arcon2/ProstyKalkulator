@@ -54,11 +54,15 @@ public class TekstRamkaPierwsza extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent e) {
 
         TekstRamkaPierwsza tekstRamkaPierwsza = new TekstRamkaPierwsza();
+        RamkaDruga ramkaDruga = new RamkaDruga();
+
 
 
         tekstRamkaPierwsza.getButtonWyjscie().addActionListener(new Dane());
         tekstRamkaPierwsza.getButtonZnajdz().addActionListener(new Dane());
         tekstRamkaPierwsza.getButtonDodaj().addActionListener(new Dane());
+        //tekstRamkaPierwsza.getLabel().addAncestorListener(new Dane());
+
 
         Object z = e.getSource();
         {
@@ -67,13 +71,11 @@ public class TekstRamkaPierwsza extends JFrame implements ActionListener {
                 System.exit(0);
             } else if (z == buttonDodaj) {
                 System.out.println("Dodaj");
+
             } else if (z == buttonZnajdz) {
                 System.out.println("Znajdz");
-
-
-
-
             }
+
 
         }
 
