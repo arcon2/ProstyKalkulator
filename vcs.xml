@@ -14,9 +14,13 @@
           <option name="url" value="https://github.com/arcon2/Java21days.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/arcon2/PierwszyProgram.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="H:\Java 2\Java21days\out" />
+    <option name="cloneParentDir" value="H:\Java 2\ProgramPierwszy" />
   </component>
   <component name="VcsApplicationSettings">
     <option name="PATCH_STORAGE_LOCATION" value="$USER_HOME$/Desktop/https:/github.com/arcon2" />
