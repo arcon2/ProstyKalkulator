@@ -1,6 +1,5 @@
 package Program;
 
-import javax.sound.sampled.Line;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -20,68 +19,57 @@ public class RamkaDruga extends JFrame implements ActionListener {
     JLabel label = tekstRamkaPierwsza.getLabel();
 
 
-
     public JPanel ramkaDruga() {
 
-        JPanel lewy = new JPanel();
-        JPanel prawy = new JPanel();
-        JPanel centralny = new JPanel();
-        centralny.setBackground(Color.cyan);
-        prawy.setBackground(Color.MAGENTA);
-        lewy.setBackground(Color.yellow);
-
         JPanel ramkaDruga = new JPanel();
-       ramkaDruga.setLayout(null);
-        ramkaDruga.setPreferredSize(new Dimension(300,100));
+        ramkaDruga.setLayout(null);
+        ramkaDruga.setPreferredSize(new Dimension(300, 100));
         ramkaDruga.setBackground(Color.BLUE);
-
-
-        centralny.setPreferredSize(new Dimension(300,30));
-        lewy.setPreferredSize(new Dimension(150,30));
-        prawy.setPreferredSize(new Dimension(150,30));
         ramkaDruga.setLayout(new BorderLayout());
 
-        ramkaDruga.add(centralny,BorderLayout.NORTH);
-        ramkaDruga.add(lewy,BorderLayout.EAST);
-        ramkaDruga.add(prawy,BorderLayout.SOUTH);
+        JPanel prawy = new JPanel();
+        JPanel lewy = new JPanel();
+        JPanel dol = new JPanel();
+        JPanel gora = new JPanel();
+        JPanel centralny = new JPanel();
+        //gora.setBackground(Color.cyan);
+        //dol.setBackground(Color.MAGENTA);
+        //prawy.setBackground(Color.yellow);
+        centralny.setBackground(Color.RED);
 
+        gora.setPreferredSize(new Dimension(300, 30));
+        prawy.setPreferredSize(new Dimension(150, 30));
+        dol.setPreferredSize(new Dimension(150, 30));
+        lewy.setPreferredSize(new Dimension(150, 30));
 
+        ramkaDruga.add(prawy, BorderLayout.EAST);
+        ramkaDruga.add(gora, BorderLayout.NORTH);
+        ramkaDruga.add(dol, BorderLayout.SOUTH);
+        ramkaDruga.add(lewy, BorderLayout.WEST);
+        ramkaDruga.add(centralny, BorderLayout.CENTER);
 
-        centralny.setLayout(new FlowLayout());
-        lewy.setLayout(new FlowLayout());
+        gora.setLayout(new FlowLayout());
         prawy.setLayout(new FlowLayout());
+        dol.setLayout(new FlowLayout());
+        lewy.setLayout(new FlowLayout());
+        centralny.setLayout(new FlowLayout());
 
-        centralny.add(label);
+        gora.add(label);
 
-        grid.insets=new Insets(5,5,5,5);
-        prawy.setLayout(new GridBagLayout());
-        grid.gridx=0;
-        grid.gridy=0;
-        prawy.add(buttonDodaj);
-        grid.gridx=0;
-        grid.gridy=1;
-        prawy.add(buttonZnajdz);
-        grid.gridx=0;
-        grid.gridy=2;
-        prawy.add(buttonWyjscie);
+        centralny.add(imie);
+        centralny.add(nazwisko);
 
-
-
-
-
-
-
-        //label.setBounds(550,50,500,25);
-        //ramkaDruga.setLayout(new BorderLayout());
-        //ramkaDruga.add(label,BorderLayout.NORTH);
-        ramkaDruga.add(imie);
-        ramkaDruga.add(nazwisko);
-        //ramkaDruga.add(buttonDodaj,BorderLayout.EAST);
-        //buttonDodaj.setBounds(500,100,100,25);
-        //ramkaDruga.add(buttonWyjscie,BorderLayout.EAST);
-       // buttonWyjscie.setBounds(900,100,100,25);
-        //ramkaDruga.add(buttonZnajdz,BorderLayout.EAST);
-        //buttonZnajdz.setBounds(700,100,100,25);
+        grid.insets = new Insets(5, 5, 5, 5);
+        dol.setLayout(new GridBagLayout());
+        grid.gridx = 1;
+        grid.gridy = 0;
+        dol.add(buttonDodaj, grid);
+        grid.gridx = 2;
+        grid.gridy = 0;
+        dol.add(buttonZnajdz, grid);
+        grid.gridx = 3;
+        grid.gridy = 0;
+        dol.add(buttonWyjscie, grid);
 
         return ramkaDruga;
     }

@@ -80,20 +80,14 @@ public class TekstRamkaPierwsza extends JFrame implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-
-
         TekstRamkaPierwsza tekstRamkaPierwsza = new TekstRamkaPierwsza();
-
-
 
         tekstRamkaPierwsza.getButtonWyjscie().addActionListener(new Dane());
         tekstRamkaPierwsza.getButtonZnajdz().addActionListener(new Dane());
         tekstRamkaPierwsza.getButtonDodaj().addActionListener(new Dane());
 
-
         Object z = e.getSource();
         {
-
             if (z == buttonWyjscie) {
                 System.exit(0);
             } else if (z == buttonDodaj) {
@@ -105,12 +99,10 @@ public class TekstRamkaPierwsza extends JFrame implements ActionListener {
                 nazwisko.setVisible(true);
                 labelPowitanie.setVisible(false);
 
-
             } else if (z == buttonZnajdz) {
                 System.out.println("Znajdz");
 
             }
-
 
         }
 
