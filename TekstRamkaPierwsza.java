@@ -7,8 +7,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class TekstRamkaPierwsza extends JFrame implements ActionListener {
-    JButton buttonWyjscie, buttonDodaj, buttonZnajdz;
-    JLabel labelPowitanie;
+    JButton buttonWyjscie, buttonDodaj, buttonZnajdz, buttonDodajDane;
+    JLabel labelPowitanie, labelKomunikatPierwszy;
     JTextField imie, nazwisko;
 
 
@@ -26,13 +26,23 @@ public class TekstRamkaPierwsza extends JFrame implements ActionListener {
     public JButton getButtonDodaj() {
         buttonDodaj = new JButton("DODAJ");
         buttonDodaj.setSize(100, 25);
-        buttonWyjscie.setPreferredSize(new Dimension(100,25));
+        buttonDodaj.setPreferredSize(new Dimension(100,25));
         //buttonDodaj.setLayout(new FlowLayout(FlowLayout.CENTER));
         //buttonDodaj.setVisible(true);
         buttonDodaj.addActionListener(this);
 
         return buttonDodaj;
 
+    }
+
+    public JButton getButtonDodajDane() {
+        buttonDodajDane = new JButton("Dodaj dane");
+        buttonDodajDane.setSize(100,20);
+        buttonDodajDane.setPreferredSize(new Dimension(100,25));
+        buttonDodajDane.addActionListener(this);
+        buttonDodajDane.setVisible(false);
+
+        return buttonDodajDane;
     }
 
     public JButton getButtonZnajdz() {
@@ -52,8 +62,15 @@ public class TekstRamkaPierwsza extends JFrame implements ActionListener {
         //labelPowitanie.setVisible(false);
         labelPowitanie.setFont(new Font("Helvetica", Font.BOLD, 20));
 
-
         return labelPowitanie;
+    }
+
+    public JLabel getLabelKomunikatPierwszy() {
+        labelKomunikatPierwszy = new JLabel("Dodaj osobę:");
+        labelKomunikatPierwszy.setFont(new Font("Helvetica", Font.BOLD, 20));
+        labelKomunikatPierwszy.setVisible(false);
+
+        return labelKomunikatPierwszy;
     }
 
     public JTextField getImie() {
@@ -98,6 +115,8 @@ public class TekstRamkaPierwsza extends JFrame implements ActionListener {
                 imie.setVisible(true);
                 nazwisko.setVisible(true);
                 labelPowitanie.setVisible(false);
+                buttonDodajDane.setVisible(true);
+                labelKomunikatPierwszy.setVisible(true);
 
             } else if (z == buttonZnajdz) {
                 System.out.println("Znajdz");

@@ -13,10 +13,12 @@ public class RamkaDruga extends JFrame implements ActionListener {
 
     JButton buttonWyjscie = tekstRamkaPierwsza.getButtonWyjscie();
     JButton buttonDodaj = tekstRamkaPierwsza.getButtonDodaj();
+    JButton buttonDodajDane = tekstRamkaPierwsza.getButtonDodajDane();
     JButton buttonZnajdz = tekstRamkaPierwsza.getButtonZnajdz();
     JTextField imie = tekstRamkaPierwsza.getImie();
     JTextField nazwisko = tekstRamkaPierwsza.getNazwisko();
     JLabel label = tekstRamkaPierwsza.getLabel();
+    JLabel labelKomunikatPierwszy = tekstRamkaPierwsza.getLabelKomunikatPierwszy();
 
 
     public JPanel ramkaDruga() {
@@ -55,9 +57,11 @@ public class RamkaDruga extends JFrame implements ActionListener {
         centralny.setLayout(new FlowLayout());
 
         gora.add(label);
+        gora.add(labelKomunikatPierwszy);
 
         centralny.add(imie);
         centralny.add(nazwisko);
+        centralny.add(buttonDodajDane);
 
         grid.insets = new Insets(5, 5, 5, 5);
         dol.setLayout(new GridBagLayout());

@@ -1,13 +1,16 @@
 package Program;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Menu extends JFrame implements ActionListener {
+    TekstRamkaPierwsza tekstRamkaPierwsza = new TekstRamkaPierwsza();
     JMenuBar menuBar; //pasek menu
     JMenu menuPlik, menuNarzedzia, menuPomoc;
-    public JMenuItem menuItemOtworz, menuItemOProgramie, menuItemWyjscie, menuItemDodaj;
+    public JMenuItem menuItemOtworz, menuItemOProgramie, menuItemWyjscie, menuItemDodaj, manuItemZnajdz;
+
 
     public Menu() {
         menuBar = new JMenuBar();
@@ -22,6 +25,7 @@ public class Menu extends JFrame implements ActionListener {
         menuItemOProgramie = new JMenuItem("O Programie");
         menuItemWyjscie = new JMenuItem("Wyjście");
         menuItemDodaj = new JMenuItem("Dodaj");
+        manuItemZnajdz = new JMenuItem("Znajdż");
 
         //dodajemy poszczegolne menu do paska menu
         menuBar.add(menuPlik);
@@ -36,6 +40,7 @@ public class Menu extends JFrame implements ActionListener {
 
         //dodawanie przyciakow do meny narzedzia
         menuNarzedzia.add(menuItemDodaj);
+        menuNarzedzia.add(manuItemZnajdz);
 
         //dodawanie przycisków do menu pomoc
         menuPomoc.add(menuItemOProgramie);
@@ -43,6 +48,7 @@ public class Menu extends JFrame implements ActionListener {
         //dodawabieactionLisnera
         menuItemOProgramie.addActionListener(this);
         menuItemWyjscie.addActionListener(this);
+        manuItemZnajdz.addActionListener(this);
     }
 
 
@@ -52,7 +58,7 @@ public class Menu extends JFrame implements ActionListener {
         Menu menu = new Menu();
 
         menu.menuItemWyjscie.addActionListener(new Dane());//pozwonienie na action lisnera w innej klasie w tym przypadku w klasie dane
-
+        menu.menuItemDodaj.addActionListener(new Dane());
 
         Object z = e.getSource();
         if (z == menuItemOProgramie) {
@@ -61,5 +67,10 @@ public class Menu extends JFrame implements ActionListener {
         else if (z == menuItemWyjscie) {
             System.exit(0);
         }
+        else if(z==menuItemDodaj)
+        {
+
+        }
+
     }
 }
