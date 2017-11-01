@@ -8,7 +8,7 @@ import java.awt.event.ActionListener;
 public class RamkaTrzecia extends JFrame implements ActionListener {
     TekstRamkaPierwsza tekstRamkaPierwsza = new TekstRamkaPierwsza();
 
-    JLabel label = tekstRamkaPierwsza.getLabel();
+    //JLabel label = tekstRamkaPierwsza.getLabel();
 
 
     public JPanel ramkaTrzecia() {
@@ -16,19 +16,15 @@ public class RamkaTrzecia extends JFrame implements ActionListener {
         ramkaTrzecia.setLayout(new FlowLayout(FlowLayout.CENTER));
         ramkaTrzecia.setSize(100, 600);
         ramkaTrzecia.setBackground(Color.ORANGE);
-        ramkaTrzecia.add(label);
+
+        //ramkaTrzecia.add(label);
 
 
         return ramkaTrzecia;
-
     }
 
-
     @Override
-    public void actionPerformed(ActionEvent e)
-
-    {
-
+    public void actionPerformed(ActionEvent e) {
 
     }
 }

@@ -1,6 +1,7 @@
 package Program;
 
 import javax.swing.*;
+import javax.swing.event.AncestorListener;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -8,12 +9,15 @@ import java.awt.event.ActionListener;
 public class TekstRamkaPierwsza extends JFrame implements ActionListener {
     JButton buttonWyjscie, buttonDodaj, buttonZnajdz;
     JLabel labelPowitanie;
+    JTextField imie, nazwisko;
+
 
     public JButton getButtonWyjscie() {
         buttonWyjscie = new JButton("WYJŚCIE");
         buttonWyjscie.setSize(100, 30);
-        buttonWyjscie.setLayout(new FlowLayout(FlowLayout.CENTER));
-        buttonWyjscie.setVisible(true);
+        buttonWyjscie.setPreferredSize(new Dimension(100,30));
+        //buttonWyjscie.setLayout(new FlowLayout(FlowLayout.CENTER));
+        //buttonWyjscie.setVisible(true);
         buttonWyjscie.addActionListener(this);
 
         return buttonWyjscie;
@@ -22,7 +26,8 @@ public class TekstRamkaPierwsza extends JFrame implements ActionListener {
     public JButton getButtonDodaj() {
         buttonDodaj = new JButton("DODAJ");
         buttonDodaj.setSize(100, 30);
-        buttonDodaj.setLayout(new FlowLayout(FlowLayout.CENTER));
+        buttonWyjscie.setPreferredSize(new Dimension(100,30));
+        //buttonDodaj.setLayout(new FlowLayout(FlowLayout.CENTER));
         //buttonDodaj.setVisible(true);
         buttonDodaj.addActionListener(this);
 
@@ -33,7 +38,8 @@ public class TekstRamkaPierwsza extends JFrame implements ActionListener {
     public JButton getButtonZnajdz() {
         buttonZnajdz = new JButton("ZNAJDZ");
         buttonZnajdz.setSize(100, 30);
-        buttonZnajdz.setLayout(new FlowLayout(FlowLayout.CENTER));
+        buttonZnajdz.setPreferredSize(new Dimension(100,30));
+       // buttonZnajdz.setLayout(new FlowLayout(FlowLayout.CENTER));
         //buttonZnajdz.setVisible(true);
         buttonZnajdz.addActionListener(this);
 
@@ -43,11 +49,33 @@ public class TekstRamkaPierwsza extends JFrame implements ActionListener {
     public JLabel getLabel() {
         labelPowitanie = new JLabel("WITAJ W PROGRAMIE Co chcesz zrobić".toUpperCase());
         labelPowitanie.setLayout(new FlowLayout(FlowLayout.CENTER));
-        //labelPowitanie.setVisible(true);
+        //labelPowitanie.setVisible(false);
         labelPowitanie.setFont(new Font("Helvetica", Font.BOLD, 20));
 
 
         return labelPowitanie;
+    }
+
+    public JTextField getImie() {
+        imie = new JTextField("Imie");
+        imie.setSize(100, 25);
+        imie.setPreferredSize(new Dimension(100, 25));
+        imie.setLayout(new FlowLayout(FlowLayout.CENTER));
+        imie.setVisible(false);
+        imie.addActionListener(this);
+
+        return imie;
+    }
+
+    public JTextField getNazwisko() {
+        nazwisko = new JTextField("Nazwisko");
+        nazwisko.setSize(100, 25);
+        nazwisko.setPreferredSize(new Dimension(100, 25));
+        nazwisko.setLayout(new FlowLayout(FlowLayout.CENTER));
+        nazwisko.setVisible(false);
+        nazwisko.addActionListener(this);
+
+        return nazwisko;
     }
 
     @Override
@@ -55,9 +83,7 @@ public class TekstRamkaPierwsza extends JFrame implements ActionListener {
 
 
         TekstRamkaPierwsza tekstRamkaPierwsza = new TekstRamkaPierwsza();
-        RamkaDruga ramkaDruga = new RamkaDruga();
-        RamkaPierwsza ramkaPierwsza = new RamkaPierwsza();
-        RamkaTrzecia ramkaTrzecia = new RamkaTrzecia();
+
 
 
         tekstRamkaPierwsza.getButtonWyjscie().addActionListener(new Dane());
@@ -72,14 +98,17 @@ public class TekstRamkaPierwsza extends JFrame implements ActionListener {
                 System.exit(0);
             } else if (z == buttonDodaj) {
                 System.out.println("Dodaj");
-                buttonZnajdz.setVisible(false);
+
                 buttonDodaj.setVisible(false);
-
-
+                buttonZnajdz.setVisible(false);
+                imie.setVisible(true);
+                nazwisko.setVisible(true);
+                labelPowitanie.setVisible(false);
 
 
             } else if (z == buttonZnajdz) {
                 System.out.println("Znajdz");
+
             }
 
 
