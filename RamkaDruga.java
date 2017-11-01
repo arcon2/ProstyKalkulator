@@ -22,6 +22,7 @@ public class RamkaDruga extends JFrame implements ActionListener {
 
 
     public JPanel ramkaDruga() {
+
         JPanel lewy = new JPanel();
         JPanel prawy = new JPanel();
         JPanel centralny = new JPanel();
@@ -30,12 +31,10 @@ public class RamkaDruga extends JFrame implements ActionListener {
         lewy.setBackground(Color.yellow);
 
         JPanel ramkaDruga = new JPanel();
-        //ramkaDruga.setLayout(new FlowLayout(FlowLayout.CENTER));
-        ramkaDruga.setLayout(null);
-        //ramkaDruga.setSize(100, 600);
+       ramkaDruga.setLayout(null);
         ramkaDruga.setPreferredSize(new Dimension(300,100));
         ramkaDruga.setBackground(Color.BLUE);
-        //ramkaDruga.add(label);
+
 
         centralny.setPreferredSize(new Dimension(300,30));
         lewy.setPreferredSize(new Dimension(150,30));
@@ -52,10 +51,9 @@ public class RamkaDruga extends JFrame implements ActionListener {
         lewy.setLayout(new FlowLayout());
         prawy.setLayout(new FlowLayout());
 
-
+        centralny.add(label);
 
         grid.insets=new Insets(5,5,5,5);
-        centralny.add(label);
         prawy.setLayout(new GridBagLayout());
         grid.gridx=0;
         grid.gridy=0;
