@@ -14,8 +14,8 @@ public class TekstRamkaPierwsza extends JFrame implements ActionListener {
 
     public JButton getButtonWyjscie() {
         buttonWyjscie = new JButton("WYJŚCIE");
-        buttonWyjscie.setSize(100, 30);
-        buttonWyjscie.setPreferredSize(new Dimension(100,30));
+        buttonWyjscie.setSize(100, 25);
+        buttonWyjscie.setPreferredSize(new Dimension(100,25));
         //buttonWyjscie.setLayout(new FlowLayout(FlowLayout.CENTER));
         //buttonWyjscie.setVisible(true);
         buttonWyjscie.addActionListener(this);
@@ -25,8 +25,8 @@ public class TekstRamkaPierwsza extends JFrame implements ActionListener {
 
     public JButton getButtonDodaj() {
         buttonDodaj = new JButton("DODAJ");
-        buttonDodaj.setSize(100, 30);
-        buttonWyjscie.setPreferredSize(new Dimension(100,30));
+        buttonDodaj.setSize(100, 25);
+        buttonWyjscie.setPreferredSize(new Dimension(100,25));
         //buttonDodaj.setLayout(new FlowLayout(FlowLayout.CENTER));
         //buttonDodaj.setVisible(true);
         buttonDodaj.addActionListener(this);
@@ -37,8 +37,8 @@ public class TekstRamkaPierwsza extends JFrame implements ActionListener {
 
     public JButton getButtonZnajdz() {
         buttonZnajdz = new JButton("ZNAJDZ");
-        buttonZnajdz.setSize(100, 30);
-        buttonZnajdz.setPreferredSize(new Dimension(100,30));
+        buttonZnajdz.setSize(100, 25);
+        buttonZnajdz.setPreferredSize(new Dimension(100,25));
        // buttonZnajdz.setLayout(new FlowLayout(FlowLayout.CENTER));
         //buttonZnajdz.setVisible(true);
         buttonZnajdz.addActionListener(this);
