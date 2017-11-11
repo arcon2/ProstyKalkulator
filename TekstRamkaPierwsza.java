@@ -15,6 +15,7 @@ public class TekstRamkaPierwsza extends JFrame implements ActionListener {
 
 
 
+
     public JButton getButtonWyjscie() {
         buttonWyjscie = new JButton("WYJŚCIE");
         buttonWyjscie.setSize(100, 25);
