@@ -10,12 +10,36 @@
     <library name="mysql-connector-java-5.1">
       <CLASSES>
         <root url="file://$USER_HOME$/Desktop/mysql-connector-java-5.1.38" />
+        <root url="file://$USER_HOME$/Desktop/mysql-connector-java-5.1.38" />
       </CLASSES>
       <JAVADOC />
       <SOURCES>
         <root url="file://$USER_HOME$/Desktop/mysql-connector-java-5.1.38/src" />
       </SOURCES>
       <jarDirectory url="file://$USER_HOME$/Desktop/mysql-connector-java-5.1.38" recursive="false" />
+      <jarDirectory url="file://$USER_HOME$/Desktop/mysql-connector-java-5.1.38" recursive="false" />
+    </library>
+    <library name="mysql-connector-java-5.12">
+      <CLASSES>
+        <root url="file://$USER_HOME$/Desktop/mysql-connector-java-5.1.38" />
+        <root url="file://$USER_HOME$/Desktop/mysql-connector-java-5.1.38" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/Desktop/mysql-connector-java-5.1.38/src" />
+      </SOURCES>
+      <jarDirectory url="file://$USER_HOME$/Desktop/mysql-connector-java-5.1.38" recursive="false" />
+      <jarDirectory url="file://$USER_HOME$/Desktop/mysql-connector-java-5.1.38" recursive="false" />
+    </library>
+    <library name="ProgramPierwszy">
+      <CLASSES>
+        <root url="file://H:/Java 2/ProgramPierwszy" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://H:/Java 2/ProgramPierwszy/src" />
+        <root url="file://H:/Java 2/ProgramPierwszy/src/Program/Program/src" />
+      </SOURCES>
     </library>
   </component>
 </application>
