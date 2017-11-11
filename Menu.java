@@ -1,7 +1,6 @@
 package Program;
 
 import javax.swing.*;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -63,12 +62,9 @@ public class Menu extends JFrame implements ActionListener {
         Object z = e.getSource();
         if (z == menuItemOProgramie) {
             JOptionPane.showMessageDialog(null, "Wercja 1.0");
-        }
-        else if (z == menuItemWyjscie) {
+        } else if (z == menuItemWyjscie) {
             System.exit(0);
-        }
-        else if(z==menuItemDodaj)
-        {
+        } else if (z == menuItemDodaj) {
 
         }
 

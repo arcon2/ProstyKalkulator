@@ -1,7 +1,6 @@
 package Program;
 
 import javax.swing.*;
-import javax.swing.event.AncestorListener;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -13,13 +12,10 @@ public class TekstRamkaPierwsza extends JFrame implements ActionListener {
     JTextField imie, nazwisko;
 
 
-
-
-
     public JButton getButtonWyjscie() {
         buttonWyjscie = new JButton("WYJŚCIE");
         buttonWyjscie.setSize(100, 25);
-        buttonWyjscie.setPreferredSize(new Dimension(100,25));
+        buttonWyjscie.setPreferredSize(new Dimension(100, 25));
         //buttonWyjscie.setLayout(new FlowLayout(FlowLayout.CENTER));
         //buttonWyjscie.setVisible(true);
         buttonWyjscie.addActionListener(this);
@@ -30,7 +26,7 @@ public class TekstRamkaPierwsza extends JFrame implements ActionListener {
     public JButton getButtonDodaj() {
         buttonDodaj = new JButton("DODAJ");
         buttonDodaj.setSize(100, 25);
-        buttonDodaj.setPreferredSize(new Dimension(100,25));
+        buttonDodaj.setPreferredSize(new Dimension(100, 25));
         //buttonDodaj.setLayout(new FlowLayout(FlowLayout.CENTER));
         //buttonDodaj.setVisible(true);
         buttonDodaj.addActionListener(this);
@@ -41,8 +37,8 @@ public class TekstRamkaPierwsza extends JFrame implements ActionListener {
 
     public JButton getButtonDodajDane() {
         buttonDodajDane = new JButton("Dodaj dane");
-        buttonDodajDane.setSize(100,20);
-        buttonDodajDane.setPreferredSize(new Dimension(100,25));
+        buttonDodajDane.setSize(100, 20);
+        buttonDodajDane.setPreferredSize(new Dimension(100, 25));
         buttonDodajDane.addActionListener(this);
         buttonDodajDane.setVisible(false);
 
@@ -52,8 +48,8 @@ public class TekstRamkaPierwsza extends JFrame implements ActionListener {
     public JButton getButtonZnajdz() {
         buttonZnajdz = new JButton("ZNAJDZ");
         buttonZnajdz.setSize(100, 25);
-        buttonZnajdz.setPreferredSize(new Dimension(100,25));
-       // buttonZnajdz.setLayout(new FlowLayout(FlowLayout.CENTER));
+        buttonZnajdz.setPreferredSize(new Dimension(100, 25));
+        // buttonZnajdz.setLayout(new FlowLayout(FlowLayout.CENTER));
         //buttonZnajdz.setVisible(true);
         buttonZnajdz.addActionListener(this);
 
@@ -125,7 +121,6 @@ public class TekstRamkaPierwsza extends JFrame implements ActionListener {
 
             } else if (z == buttonZnajdz) {
                 System.out.println("Znajdz");
-
 
 
             }

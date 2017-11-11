@@ -41,14 +41,6 @@ public class Dane extends JFrame implements ActionListener {
         dane.setVisible(true);
 
 
-
-
-
-
-
-
-
-
     }
 
 

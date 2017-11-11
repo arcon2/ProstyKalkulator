@@ -2,17 +2,15 @@ package Program;
 
 import java.sql.*;
 
-import static java.sql.DriverManager.*;
-
-public class BazaDanych
-{
+public class BazaDanych {
 
     static String daneZBazy;
+
     /**
      * @param args
      */
     //public static void main(String[] args) {
-    public void baza(){
+    public void baza() {
         String polaczenieURL = "jdbc:mysql://192.168.1.4/test?user=test&password=test";
         //Tworzymy proste zapytanie doa bazy danych
         String query = "Select * FROM osoba";
@@ -38,11 +36,9 @@ public class BazaDanych
             conn.close();
         }
         //Wyrzuć wyjątki jężeli nastąpią błędy z podłączeniem do bazy danych lub blędy zapytania o dane
-        catch(ClassNotFoundException wyjatek) {
+        catch (ClassNotFoundException wyjatek) {
             System.out.println("Problem ze sterownikiem");
-        }
-
-        catch(SQLException wyjatek) {
+        } catch (SQLException wyjatek) {
             //e.printStackTrace();
             //System.out.println("Problem z logowaniem\nProsze sprawdzic:\n nazwę użytkownika, hasło, nazwę bazy danych lub adres IP serwera");
             System.out.println("SQLException: " + wyjatek.getMessage());
@@ -51,15 +47,16 @@ public class BazaDanych
         }
 
     }
-    static void wyswietlDaneZBazy(ResultSet rs){
-        try{
+
+    static void wyswietlDaneZBazy(ResultSet rs) {
+        try {
             daneZBazy = rs.getString(1);
             System.out.println("\n" + daneZBazy + " ");
             daneZBazy = rs.getString(2);
             System.out.println(daneZBazy + " ");
             daneZBazy = rs.getString(3);
             System.out.println(daneZBazy);
-        }catch(SQLException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
     }
