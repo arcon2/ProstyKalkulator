@@ -1,11 +1,6 @@
 package Program;
 
 import javax.swing.*;
-
-import javax.swing.event.AncestorListener;
-
-
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -15,7 +10,6 @@ public class Dane extends JFrame implements ActionListener {
     public Dane() {
         setSize(800, 600);
         setTitle("Dane");
-
 
 
         Menu menu = new Menu();
@@ -36,8 +30,8 @@ public class Dane extends JFrame implements ActionListener {
         //add(ramkaDruga.ramkaDruga());
 
 
-
         setExtendedState(MAXIMIZED_BOTH);//otwiera maksymalne okno
+
 
     }
 
@@ -45,6 +39,15 @@ public class Dane extends JFrame implements ActionListener {
         Dane dane = new Dane();
         dane.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         dane.setVisible(true);
+
+
+
+
+
+
+
+
+
 
     }
 

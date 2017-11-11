@@ -6,10 +6,13 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+
 public class TekstRamkaPierwsza extends JFrame implements ActionListener {
     JButton buttonWyjscie, buttonDodaj, buttonZnajdz, buttonDodajDane;
     JLabel labelPowitanie, labelKomunikatPierwszy;
     JTextField imie, nazwisko;
+
+
 
 
     public JButton getButtonWyjscie() {
@@ -74,7 +77,7 @@ public class TekstRamkaPierwsza extends JFrame implements ActionListener {
     }
 
     public JTextField getImie() {
-        imie = new JTextField("Imie");
+        imie = new JTextField("");
         imie.setSize(100, 25);
         imie.setPreferredSize(new Dimension(100, 25));
         imie.setLayout(new FlowLayout(FlowLayout.CENTER));
@@ -85,7 +88,7 @@ public class TekstRamkaPierwsza extends JFrame implements ActionListener {
     }
 
     public JTextField getNazwisko() {
-        nazwisko = new JTextField("Nazwisko");
+        nazwisko = new JTextField("");
         nazwisko.setSize(100, 25);
         nazwisko.setPreferredSize(new Dimension(100, 25));
         nazwisko.setLayout(new FlowLayout(FlowLayout.CENTER));
@@ -98,6 +101,7 @@ public class TekstRamkaPierwsza extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         TekstRamkaPierwsza tekstRamkaPierwsza = new TekstRamkaPierwsza();
+
 
         tekstRamkaPierwsza.getButtonWyjscie().addActionListener(new Dane());
         tekstRamkaPierwsza.getButtonZnajdz().addActionListener(new Dane());
@@ -120,6 +124,8 @@ public class TekstRamkaPierwsza extends JFrame implements ActionListener {
 
             } else if (z == buttonZnajdz) {
                 System.out.println("Znajdz");
+
+
 
             }
 
