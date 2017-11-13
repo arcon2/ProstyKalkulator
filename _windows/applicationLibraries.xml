@@ -7,6 +7,13 @@
       <JAVADOC />
       <SOURCES />
     </library>
+    <library name="mysql-connector-java-5.1.44-bin">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/Desktop/mysql-connector-java-5.1.44/mysql-connector-java-5.1.44-bin.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="mysql-connector-java-5.12">
       <CLASSES>
         <root url="file://$USER_HOME$/Desktop/mysql-connector-java-5.1.38" />
