@@ -10,6 +10,7 @@ public class TekstRamkaPierwsza extends JFrame implements ActionListener {
     JButton buttonWyjscie, buttonDodaj, buttonZnajdz, buttonDodajDane;
     JLabel labelPowitanie, labelKomunikatPierwszy;
     JTextField imie, nazwisko;
+    String imieTextRamka, nazwiskoTextRamka;
 
 
     public JButton getButtonWyjscie() {
@@ -74,15 +75,18 @@ public class TekstRamkaPierwsza extends JFrame implements ActionListener {
     }
 
     public JTextField getImie() {
-        imie = new JTextField("");
-        imie.setSize(100, 25);
-        imie.setPreferredSize(new Dimension(100, 25));
-        imie.setLayout(new FlowLayout(FlowLayout.CENTER));
-        imie.setVisible(false);
-        imie.addActionListener(this);
+        this.imie = new JTextField("");
+        this.imie.setSize(100, 25);
+        this.imie.setPreferredSize(new Dimension(100, 25));
+        this.imie.setLayout(new FlowLayout(FlowLayout.CENTER));
+        this.imie.setVisible(false);
+        this.imie.addActionListener(this);
 
-        return imie;
+        return this.imie;
+
     }
+
+
 
     public JTextField getNazwisko() {
         nazwisko = new JTextField("");
@@ -95,9 +99,11 @@ public class TekstRamkaPierwsza extends JFrame implements ActionListener {
         return nazwisko;
     }
 
+
     @Override
     public void actionPerformed(ActionEvent e) {
         TekstRamkaPierwsza tekstRamkaPierwsza = new TekstRamkaPierwsza();
+        OsobaDoBazy osobaDoBazy = new OsobaDoBazy();
 
 
         tekstRamkaPierwsza.getButtonWyjscie().addActionListener(new Dane());
@@ -119,8 +125,22 @@ public class TekstRamkaPierwsza extends JFrame implements ActionListener {
                 buttonDodajDane.setVisible(true);
                 labelKomunikatPierwszy.setVisible(true);
 
+
             } else if (z == buttonZnajdz) {
                 System.out.println("Znajdz");
+
+            }
+            else if(z == buttonDodajDane)
+            {
+
+
+                System.out.println("Dodaj Dane");
+                String imieTextRamka=imie.getText();
+                String nazwiskoTextRamka=nazwisko.getText();
+                System.out.println(imieTextRamka);
+                System.out.println(nazwiskoTextRamka);
+                BazaDanych bazaDanych = new BazaDanych();
+                bazaDanych.insertOsoba(null,imieTextRamka,nazwiskoTextRamka);
 
 
             }
@@ -128,5 +148,7 @@ public class TekstRamkaPierwsza extends JFrame implements ActionListener {
         }
 
     }
+
+
 }
 

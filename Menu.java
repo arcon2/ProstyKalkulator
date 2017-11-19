@@ -55,7 +55,6 @@ public class Menu extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent e) {
 
         Menu menu = new Menu();
-
         menu.menuItemWyjscie.addActionListener(new Dane());//pozwonienie na action lisnera w innej klasie w tym przypadku w klasie dane
         menu.menuItemDodaj.addActionListener(new Dane());
 

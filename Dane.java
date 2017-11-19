@@ -39,6 +39,8 @@ public class Dane extends JFrame implements ActionListener {
         Dane dane = new Dane();
         dane.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         dane.setVisible(true);
+        OsobaDoBazy osobaDoBazy = new OsobaDoBazy();
+        //System.out.println(osobaDoBazy.getImie());
 
 
     }

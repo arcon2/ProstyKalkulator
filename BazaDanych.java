@@ -12,7 +12,7 @@ public class BazaDanych {
     Connection conn;
     Statement stat;
 
-
+    //połaczenir z bazą
     public BazaDanych() {
         try {
             Class.forName(BazaDanych.sterownik);
@@ -29,7 +29,7 @@ public class BazaDanych {
         }
     }
 
-
+    //metoda wyświetlająca wynik
     public void wyswietl() throws SQLException {
 
 
@@ -46,8 +46,31 @@ public class BazaDanych {
         } finally {
 
         }
+    }
 
+    public boolean insertOsoba(String Id, String Imie, String Nazwisko) {
+        try {
+            PreparedStatement prepStmt = conn.prepareStatement(
+                    "insert into osoba values (NULL, ?, ?, ?);");
+            prepStmt.setString(1, Id);
+            prepStmt.setString(2, Imie);
+            prepStmt.setString(3, Nazwisko);
+            prepStmt.execute();
+        } catch (SQLException e) {
+            System.err.println("Blad przy wstawianiu Osoby");
+            e.printStackTrace();
+            return false;
+        }
+        return true;
+    }
 
+    public void closeConnection() {
+        try {
+            conn.close();
+        } catch (SQLException e) {
+            System.err.println("Problem z zamknieciem polaczenia");
+            e.printStackTrace();
+        }
     }
 
 }
