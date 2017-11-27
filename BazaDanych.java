@@ -14,6 +14,7 @@ public class BazaDanych {
 
     //połaczenir z bazą
     public BazaDanych() {
+
         try {
             Class.forName(BazaDanych.sterownik);
         } catch (ClassNotFoundException e) {
