@@ -41,6 +41,7 @@ public class BazaDanych {
                 System.out.println("Nazwisko:\t" + wynik.getString(3));
 
                 System.out.println();
+
             }
 
         } finally {
