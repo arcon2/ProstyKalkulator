@@ -51,7 +51,7 @@ public class BazaDanych {
     public boolean insertOsoba(String Id, String Imie, String Nazwisko) {
         try {
             PreparedStatement prepStmt = conn.prepareStatement(
-                    "insert into osoba values (NULL, ?, ?, ?);");
+                    "insert into dane.osoba values (NULL, ?, ?);");
             prepStmt.setString(1, Id);
             prepStmt.setString(2, Imie);
             prepStmt.setString(3, Nazwisko);
