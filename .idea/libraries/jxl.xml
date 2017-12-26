@@ -2,8 +2,12 @@
   <library name="jxl">
     <CLASSES>
       <root url="jar://$USER_HOME$/Desktop/jxl.jar!/" />
+      <root url="file://$USER_HOME$/Desktop/mysql-connector-java-5.1.44" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Desktop/mysql-connector-java-5.1.44/src" />
+    </SOURCES>
+    <jarDirectory url="file://$USER_HOME$/Desktop/mysql-connector-java-5.1.44" recursive="false" />
   </library>
 </component>
