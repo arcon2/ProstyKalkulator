@@ -16,11 +16,16 @@ public class RamkaDruga extends JFrame implements ActionListener {
     JButton buttonDodajDane = tekstRamkaPierwsza.getButtonDodajDane();
     JButton buttonZnajdz = tekstRamkaPierwsza.getButtonZnajdz();
     JButton buttonPowrot = tekstRamkaPierwsza.getButtonPowrot();
+    JButton buttonZnajdzDane = tekstRamkaPierwsza.getButtonZnajdzDane();
+
+
 
     JTextField imie = tekstRamkaPierwsza.getImie();
     JTextField nazwisko = tekstRamkaPierwsza.getNazwisko();
     JLabel label = tekstRamkaPierwsza.getLabel();
     JLabel labelKomunikatPierwszy = tekstRamkaPierwsza.getLabelKomunikatPierwszy();
+    JLabel labelKomunikatDrugi = tekstRamkaPierwsza.getLabelKomunikatDrugi();
+
 
 
 
@@ -62,11 +67,16 @@ public class RamkaDruga extends JFrame implements ActionListener {
 
         gora.add(label);
         gora.add(labelKomunikatPierwszy);
+        gora.add(labelKomunikatDrugi);
+
 
 
         centralny.add(imie);
         centralny.add(nazwisko);
         centralny.add(buttonDodajDane);
+        centralny.add(buttonZnajdzDane);
+
+
 
 
 

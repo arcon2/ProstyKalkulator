@@ -47,18 +47,18 @@ public class TekstRamkaPierwsza extends JFrame implements ActionListener {
         return buttonDodajDane;
     }
     public JButton getButtonZnajdzDane() {
-        buttonDodajDane = new JButton("Znajdz dane");
-        buttonDodajDane.setSize(100, 20);
-        buttonDodajDane.setPreferredSize(new Dimension(100, 25));
-        buttonDodajDane.addActionListener(this);
-        buttonDodajDane.setVisible(false);
+        buttonZnajdzDane = new JButton("Znajdz dane");
+        buttonZnajdzDane.setSize(120, 20);
+        buttonZnajdzDane.setPreferredSize(new Dimension(120, 25));
+        buttonZnajdzDane.addActionListener(this);
+        buttonZnajdzDane.setVisible(false);
 
         return buttonZnajdzDane;
     }
 
     public JButton getButtonZnajdz() {
         buttonZnajdz = new JButton("ZNAJDZ");
-        buttonZnajdz.setSize(100, 25);
+        buttonZnajdz.setSize(100, 235);
         buttonZnajdz.setPreferredSize(new Dimension(100, 25));
         // buttonZnajdz.setLayout(new FlowLayout(FlowLayout.CENTER));
         //buttonZnajdz.setVisible(true);
@@ -94,9 +94,9 @@ public class TekstRamkaPierwsza extends JFrame implements ActionListener {
         return labelKomunikatPierwszy;
     }
     public JLabel getLabelKomunikatDrugi() {
-        labelKomunikatPierwszy = new JLabel("Znajdz osobę:");
-        labelKomunikatPierwszy.setFont(new Font("Helvetica", Font.BOLD, 20));
-        labelKomunikatPierwszy.setVisible(false);
+        labelKomunikatDrugi = new JLabel("Znajdz osobę:");
+        labelKomunikatDrugi.setFont(new Font("Helvetica", Font.BOLD, 20));
+        labelKomunikatDrugi.setVisible(false);
 
         return labelKomunikatDrugi;
     }
@@ -139,6 +139,7 @@ public class TekstRamkaPierwsza extends JFrame implements ActionListener {
         tekstRamkaPierwsza.getButtonDodaj().addActionListener(new Dane());
         tekstRamkaPierwsza.getButtonZnajdz().addActionListener(new Dane());
 
+
         Object z = e.getSource();
         {
             if (z == buttonWyjscie) {
@@ -154,6 +155,9 @@ public class TekstRamkaPierwsza extends JFrame implements ActionListener {
                 labelPowitanie.setVisible(false);
                 buttonDodajDane.setVisible(true);
                 labelKomunikatPierwszy.setVisible(true);
+                labelKomunikatDrugi.setVisible(false);
+
+
 
 
             } else if (z == buttonZnajdz) {
@@ -166,8 +170,10 @@ public class TekstRamkaPierwsza extends JFrame implements ActionListener {
                 nazwisko.setVisible(true);
                 labelPowitanie.setVisible(false);
                 buttonDodajDane.setVisible(false);
-               // buttonZnajdzDane.setVisible(false);
+                buttonZnajdzDane.setVisible(true);
                 labelKomunikatPierwszy.setVisible(false);
+                labelKomunikatDrugi.setVisible(true);
+
 
 
             }
@@ -195,7 +201,13 @@ public class TekstRamkaPierwsza extends JFrame implements ActionListener {
                 labelPowitanie.setVisible(true);
                 buttonDodajDane.setVisible(false);
                 labelKomunikatPierwszy.setVisible(false);
+                labelKomunikatDrugi.setVisible(false);
+                buttonZnajdzDane.setVisible(false);
 
+            }
+            else if (z == buttonZnajdzDane)
+            {
+                System.out.println("Szukaj danych");
             }
 
 
