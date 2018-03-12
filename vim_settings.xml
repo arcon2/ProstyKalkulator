@@ -11,6 +11,22 @@
       <file name="/Dummy.txt" timestamp="1520790102358">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="H:/Java 2/hello/src/sample/Main.java" timestamp="1520885532744">
+        <mark key="[" line="13" column="31" />
+        <mark key="]" line="13" column="11" />
+        <mark key="." line="13" column="31" />
+      </file>
+      <file name="H:/Java 2/hello/src/sample/Controller.java" timestamp="1520884965794">
+        <mark key="[" line="2" column="24" />
+      </file>
+      <file name="H:/Java2/Java21days/src/Okienko.java" timestamp="1520883566583">
+        <mark key="[" line="6" column="1" />
+        <mark key="]" line="6" column="1" />
+        <mark key="." line="6" column="1" />
+      </file>
+      <file name="H:/Java 2/hello/src/sample/sample.fxml" timestamp="1520884963170">
+        <mark key="[" line="0" column="10" />
+      </file>
       <file name="/fragment.java" timestamp="1520793585603">
         <mark key="[" line="0" column="0" />
       </file>
@@ -23,13 +39,22 @@
     <jumps />
     <registers>
       <register name="1" type="4">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">PEdyaWRQYW5lIGZ4OmNvbnRyb2xsZXI9InNhbXBsZS5Db250cm9sbGVyIgogICAgICAgICAgeG1sbnM6Zng9Imh0dHA6Ly9qYXZhZnguY29tL2Z4bWwiIGFsaWdubWVudD0iY2VudGVyIiBoZ2FwPSIxMCIgdmdhcD0iMTAiPgo8L0dyaWRQYW5lPg==</text>
       </register>
       <register name="&quot;" type="4">
-        <text encoding="base64">Cg==</text>
+        <text>Hello World&quot;</text>
       </register>
       <register name="2" type="4">
         <text encoding="base64">Cg==</text>
+      </register>
+      <register name="3" type="4">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="4">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="-" type="4">
+        <text>Hello World&quot;</text>
       </register>
     </registers>
     <search>
