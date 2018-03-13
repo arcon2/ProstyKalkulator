@@ -19,10 +19,11 @@
       <file name="H:/Java 2/hello/src/sample/Controller.java" timestamp="1520884965794">
         <mark key="[" line="2" column="24" />
       </file>
-      <file name="H:/Java2/Java21days/src/Okienko.java" timestamp="1520883566583">
-        <mark key="[" line="6" column="1" />
-        <mark key="]" line="6" column="1" />
-        <mark key="." line="6" column="1" />
+      <file name="H:/Java2/Java21days/src/Okienko.java" timestamp="1520927363647">
+        <mark key="[" line="6" column="8" />
+        <mark key="]" line="6" column="8" />
+        <mark key="." line="6" column="8" />
+        <mark key="^" line="6" column="7" />
       </file>
       <file name="H:/Java 2/hello/src/sample/sample.fxml" timestamp="1520884963170">
         <mark key="[" line="0" column="10" />
@@ -39,18 +40,23 @@
     <jumps />
     <registers>
       <register name="1" type="4">
-        <text encoding="base64">PEdyaWRQYW5lIGZ4OmNvbnRyb2xsZXI9InNhbXBsZS5Db250cm9sbGVyIgogICAgICAgICAgeG1sbnM6Zng9Imh0dHA6Ly9qYXZhZnguY29tL2Z4bWwiIGFsaWdubWVudD0iY2VudGVyIiBoZ2FwPSIxMCIgdmdhcD0iMTAiPgo8L0dyaWRQYW5lPg==</text>
+        <text>int =8;
+        int = 5;</text>
       </register>
       <register name="&quot;" type="4">
-        <text>Hello World&quot;</text>
+        <text>int =8;
+        int = 5;</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">PEdyaWRQYW5lIGZ4OmNvbnRyb2xsZXI9InNhbXBsZS5Db250cm9sbGVyIgogICAgICAgICAgeG1sbnM6Zng9Imh0dHA6Ly9qYXZhZnguY29tL2Z4bWwiIGFsaWdubWVudD0iY2VudGVyIiBoZ2FwPSIxMCIgdmdhcD0iMTAiPgo8L0dyaWRQYW5lPg==</text>
       </register>
       <register name="3" type="4">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="4">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="4">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
@@ -67,6 +73,13 @@
       <history-expr />
       <history-input />
     </history>
-    <shortcut-conflicts />
+    <shortcut-conflicts>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed C</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed V</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
   </component>
 </application>
