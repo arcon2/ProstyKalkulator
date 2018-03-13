@@ -19,20 +19,22 @@
       <file name="H:/Java 2/hello/src/sample/Controller.java" timestamp="1520884965794">
         <mark key="[" line="2" column="24" />
       </file>
-      <file name="H:/Java2/Java21days/src/DzienDrugiCwiczenie01.java" timestamp="1520927534866">
-        <mark key="'" line="15" column="0" />
-        <mark key="[" line="15" column="1" />
-        <mark key="]" line="15" column="1" />
-        <mark key="." line="15" column="1" />
+      <file name="H:/Java2/Java21days/src/DzienDrugiCwiczenie01.java" timestamp="1520928710929">
+        <mark key="'" line="16" column="0" />
+        <mark key="[" line="4" column="8" />
+        <mark key="]" line="16" column="1" />
+        <mark key="." line="16" column="1" />
       </file>
-      <file name="H:/Java2/Java21days/src/Okienko.java" timestamp="1520928145055">
-        <mark key="[" line="6" column="8" />
+      <file name="H:/Java2/Java21days/src/Okienko.java" timestamp="1520928676163">
         <mark key="]" line="6" column="8" />
         <mark key="." line="6" column="8" />
         <mark key="^" line="6" column="7" />
       </file>
       <file name="H:/Java 2/hello/src/sample/sample.fxml" timestamp="1520884963170">
         <mark key="[" line="0" column="10" />
+      </file>
+      <file name="H:/Java2/Java21days/src/DzienTrzeciCwiczenie02.java" timestamp="1520928621509">
+        <mark key="[" line="13" column="0" />
       </file>
       <file name="/fragment.java" timestamp="1520793585603">
         <mark key="[" line="0" column="0" />
@@ -70,6 +72,9 @@
       <register name="6" type="4">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="w" type="4">
+        <text encoding="base64">ZSA=</text>
+      </register>
       <register name="-" type="4">
         <text>Hello World&quot;</text>
       </register>
@@ -90,6 +95,12 @@
       </shortcut-conflict>
       <shortcut-conflict owner="ide">
         <text>ctrl pressed V</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed A</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed S</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
