@@ -31,11 +31,11 @@
         <mark key="." line="6" column="8" />
         <mark key="^" line="6" column="7" />
       </file>
-      <file name="H:/Java2/Java21days/src/Petla.java" timestamp="1520943920937">
-        <mark key="[" line="7" column="7" />
-        <mark key="]" line="6" column="35" />
-        <mark key="^" line="6" column="35" />
-        <mark key="." line="6" column="35" />
+      <file name="H:/Java2/Java21days/src/Petla.java" timestamp="1520964103550">
+        <mark key="[" line="14" column="8" />
+        <mark key="]" line="14" column="8" />
+        <mark key="^" line="15" column="20" />
+        <mark key="." line="14" column="8" />
       </file>
       <file name="H:/Java 2/hello/src/sample/sample.fxml" timestamp="1520884963170">
         <mark key="[" line="0" column="10" />
@@ -57,24 +57,27 @@
       <jump line="15" column="0" filename="H:/Java2/Java21days/src/DzienDrugiCwiczenie01.java" />
     </jumps>
     <registers>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text>while (numer != 10);
+        System.out.println(&quot;Gratulacje&quot;);</text>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>while (numer != 10);
+        System.out.println(&quot;Gratulacje&quot;);</text>
       </register>
       <register name="2" type="4">
+        <text>numer=scaner.nextInt();
+        System.out.println(numer);</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="4">
         <text>int =8;
         int = 5;</text>
       </register>
-      <register name="3" type="4">
-        <text encoding="base64">PEdyaWRQYW5lIGZ4OmNvbnRyb2xsZXI9InNhbXBsZS5Db250cm9sbGVyIgogICAgICAgICAgeG1sbnM6Zng9Imh0dHA6Ly9qYXZhZnguY29tL2Z4bWwiIGFsaWdubWVudD0iY2VudGVyIiBoZ2FwPSIxMCIgdmdhcD0iMTAiPgo8L0dyaWRQYW5lPg==</text>
-      </register>
-      <register name="4" type="4">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="5" type="4">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">PEdyaWRQYW5lIGZ4OmNvbnRyb2xsZXI9InNhbXBsZS5Db250cm9sbGVyIgogICAgICAgICAgeG1sbnM6Zng9Imh0dHA6Ly9qYXZhZnguY29tL2Z4bWwiIGFsaWdubWVudD0iY2VudGVyIiBoZ2FwPSIxMCIgdmdhcD0iMTAiPgo8L0dyaWRQYW5lPg==</text>
       </register>
       <register name="6" type="4">
         <text encoding="base64">Cg==</text>
@@ -82,8 +85,14 @@
       <register name="w" type="4">
         <text encoding="base64">ZSA=</text>
       </register>
+      <register name="7" type="4">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="8" type="4">
+        <text encoding="base64">Cg==</text>
+      </register>
       <register name="-" type="4">
-        <text>Hello World&quot;</text>
+        <text encoding="base64">IFN5c3RlbS5vdXQucHJpbnRsbigiUG9kYWogbGljemLqID0gIiApOw==</text>
       </register>
     </registers>
     <search>
