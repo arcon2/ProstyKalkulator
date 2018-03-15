@@ -3,23 +3,11 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="/Dummy.txt" timestamp="1521144176375">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="H:/Java2/Java21days/src/Tablice.java" timestamp="1521131677064">
-        <mark key="[" line="27" column="16" />
-        <mark key="]" line="25" column="12" />
-        <mark key="^" line="25" column="12" />
-        <mark key="." line="25" column="12" />
-      </file>
-      <file name="H:/Java2/Java21days/src/wybor.java" timestamp="1521143839122">
+      <file name="H:/Java2/Java21days/src/wybor.java" timestamp="1521144561034">
         <mark key="[" line="17" column="7" />
         <mark key="]" line="19" column="15" />
         <mark key="^" line="19" column="15" />
         <mark key="." line="19" column="15" />
-      </file>
-      <file name="H:/Java2/Java21days/src/Petle.java" timestamp="1521137342758">
-        <mark key="[" line="9" column="20" />
       </file>
       <file name="H:/Java2/Java21days/src/LiczbaPierwsza.java" timestamp="1521141688173">
         <mark key="[" line="11" column="0" />
@@ -48,19 +36,6 @@
         <mark key="]" line="28" column="16" />
         <mark key="." line="28" column="16" />
       </file>
-      <file name="H:/Java 2/hello/src/sample/sample.fxml" timestamp="1520884963170">
-        <mark key="[" line="0" column="10" />
-      </file>
-      <file name="H:/Java2/Java21days/src/SortowanieLiczb.java" timestamp="1521141737738">
-        <mark key="[" line="5" column="8" />
-        <mark key="]" line="5" column="8" />
-        <mark key="." line="5" column="8" />
-      </file>
-      <file name="H:/Java2/Java21days/src/Wizytowka.java" timestamp="1521143510029">
-        <mark key="[" line="20" column="28" />
-        <mark key="]" line="20" column="28" />
-        <mark key="." line="20" column="28" />
-      </file>
       <file name="H:/Java2/Java21days/src/DzienCzwartyCwiczenie01.java" timestamp="1520928912683">
         <mark key="[" line="10" column="1" />
         <mark key="]" line="10" column="1" />
@@ -79,14 +54,47 @@
         <mark key="]" line="12" column="6" />
         <mark key="." line="12" column="6" />
       </file>
+      <file name="H:/Java2/Java21days/src/PobieranieDanych.java" timestamp="1521138430244">
+        <mark key="[" line="18" column="0" />
+      </file>
+      <file name="H:/Java2/Java21days/src/Operator.java" timestamp="1521137896297">
+        <mark key="[" line="0" column="22" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1521144176375">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="H:/Java2/Java21days/src/Tablice.java" timestamp="1521131677064">
+        <mark key="[" line="27" column="16" />
+        <mark key="]" line="25" column="12" />
+        <mark key="^" line="25" column="12" />
+        <mark key="." line="25" column="12" />
+      </file>
+      <file name="H:/Java2/Java21days/src/Petle.java" timestamp="1521137342758">
+        <mark key="[" line="9" column="20" />
+      </file>
+      <file name="H:/Java 2/hello/src/sample/sample.fxml" timestamp="1520884963170">
+        <mark key="[" line="0" column="10" />
+      </file>
+      <file name="H:/Java2/Java21days/src/SortowanieLiczb.java" timestamp="1521141737738">
+        <mark key="[" line="5" column="8" />
+        <mark key="]" line="5" column="8" />
+        <mark key="." line="5" column="8" />
+      </file>
+      <file name="H:/Java2/Java21days/src/Wizytowka.java" timestamp="1521143510029">
+        <mark key="[" line="20" column="28" />
+        <mark key="]" line="20" column="28" />
+        <mark key="." line="20" column="28" />
+      </file>
+      <file name="H:/Java2/Java21days/src/Gwiazdki.java" timestamp="1521146455525">
+        <mark key="[" line="4" column="7" />
+        <mark key="]" line="4" column="7" />
+        <mark key="." line="4" column="7" />
+      </file>
       <file name="H:/Java2/Java21days/src/Okienko.java" timestamp="1520928922599">
         <mark key="[" line="8" column="1" />
         <mark key="]" line="6" column="8" />
         <mark key="." line="6" column="8" />
         <mark key="^" line="6" column="7" />
-      </file>
-      <file name="H:/Java2/Java21days/src/PobieranieDanych.java" timestamp="1521138430244">
-        <mark key="[" line="18" column="0" />
       </file>
       <file name="H:/Java2/Java21days/src/DzienTrzeciCwiczenie02.java" timestamp="1520928927321">
         <mark key="[" line="11" column="5" />
@@ -104,9 +112,6 @@
         <mark key="]" line="27" column="1" />
         <mark key="." line="27" column="1" />
       </file>
-      <file name="H:/Java2/Java21days/src/Operator.java" timestamp="1521137896297">
-        <mark key="[" line="0" column="22" />
-      </file>
     </filemarks>
     <jumps>
       <jump line="14" column="4" filename="H:/Java2/Java21days/src/DzienDrugiCwiczenie01.java" />
@@ -114,43 +119,40 @@
     </jumps>
     <registers>
       <register name="1" type="4">
-        <text encoding="base64">CiAgICAgICAgaWYoKQogICAgICAgIHsKCiAgICAgICAgfQ==</text>
+        <text encoding="base64">IGludCBoZWlnaHQgPSA0OwogICAgICAgIGZvciAoaW50IGkgPSAwOyBpIDwgaGVpZ2h0OyBpKyspIHsKICAgICAgICAgICAgZm9yIChpbnQgaiA9IDA7IGogPCBoZWlnaHQ7IGorKykgewogICAgICAgICAgICAgICAgLy9pZiAoaiA8PSBpKSB7CiAgICAgICAgICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludCgiKiIpOwogICAgICAgICAgICAgICAgLy99CiAgICAgICAgICAgIH0KICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKCk7CiAgICAgICAgfQ==</text>
       </register>
       <register name="&quot;" type="4">
-        <text>**************************&quot;</text>
+        <text encoding="base64">IGludCBoZWlnaHQgPSA0OwogICAgICAgIGZvciAoaW50IGkgPSAwOyBpIDwgaGVpZ2h0OyBpKyspIHsKICAgICAgICAgICAgZm9yIChpbnQgaiA9IDA7IGogPCBoZWlnaHQ7IGorKykgewogICAgICAgICAgICAgICAgLy9pZiAoaiA8PSBpKSB7CiAgICAgICAgICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludCgiKiIpOwogICAgICAgICAgICAgICAgLy99CiAgICAgICAgICAgIH0KICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKCk7CiAgICAgICAgfQ==</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">IGlmKGE+Ynx8Yj5jKQogICAgICAgIHsKCiAgICAgICAg</text>
+        <text encoding="base64">CnsKICAgIHB1YmxpYyBzdGF0aWMgdm9pZCBtYWluKFN0cmluZ1tdIGFyZ3MpIHsKICAgICAgICBpbnQgY2hvaSA9IDQ7CiAgICAgICAgZm9yIChpbnQgaSA9IDA7IGkgPCBjaG9pOyBpKyspIHsKICAgICAgICAgICAgZm9yIChpbnQgaiA9IDA7IGogPCBjaG9pOyBqKyspIHsKICAgICAgICAgICAgICAgIGlmIChqIDw9aSkgewogICAgICAgICAgICAgICAgICAgIFN5c3RlbS5vdXQucHJpbnRsbigiKiIpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9</text>
       </register>
       <register name="3" type="4">
-        <text encoding="base64">IGxpY3piYTI9bGljemJhOwogICAgICAgIGxpY3piYTE9bGljemJhMi9saWN6YmEyOw==</text>
+        <text encoding="base64">IHB1YmxpYyBzdGF0aWMgdm9pZCBtYWluKFN0cmluZ1tdIGFyZ3MpIHsKICAgICAgICBpbnQgY2hvaSA9IDQ7CiAgICAgICAgZm9yIChpbnQgaSA9IDA7IGkgPCBjaG9pOyBpKyspIHsKICAgICAgICAgICAgZm9yIChpbnQgaiA9IDA7IGogPCBjaG9pOyBqKyspIHsKICAgICAgICAgICAgICAgIGlmIChqIDw9aSkgewogICAgICAgICAgICAgICAgICAgIFN5c3RlbS5vdXQucHJpbnQoIioiKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQ==</text>
       </register>
       <register name="4" type="4">
-        <text encoding="base64">IG49MTAwOwp3aGlsZSAobj4wKSB7</text>
+        <text encoding="base64">cHVibGljIHN0YXRpYyB2b2lkIG1haW4oU3RyaW5nW10gYXJncykgewogICAgICAgIGludCBoZWlnaHQgPSA0OwogICAgICAgIGZvciAoaW50IGkgPSAwOyBpIDwgaGVpZ2h0OyBpKyspIHsKICAgICAgICAgICAgZm9yIChpbnQgaiA9IDA7IGogPCBoZWlnaHQ7IGorKykgewogICAgICAgICAgICAgICAgaWYgKGogPD0gaSkgewogICAgICAgICAgICAgICAgICAgIFN5c3RlbS5vdXQucHJpbnQoIioiKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oKTsKICAgICAgICB9CiAgICB9</text>
       </register>
       <register name="5" type="4">
-        <text encoding="base64">CgoKICAgICAgICBkb3sKICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKCJQb2RhaiBwb3ByYXdu6iBsaWN6YuoiKTsKICAgICAgICAgICAgbnVtZXI9c2NhbmVyLm5leHRJbnQoKTsKICAgICAgICB9CgogICAgICAgIHdoaWxlIChudW1lciAhPTEwKTsKICAgICAgICB7U3lzdGVtLm91dC5wcmludGxuKCJHcmF0dWxhY2plIik7fQ==</text>
+        <text encoding="base64">cHVibGljIHN0YXRpYyB2b2lkIG1haW4oU3RyaW5nW10gYXJncykgewogICAgICAgIGludCBoZWlnaHQgPSA0OwogICAgICAgIGZvciAoaW50IGkgPSAwOyBpIDwgaGVpZ2h0OyBpKyspIHsKICAgICAgICAgICAgZm9yIChpbnQgaiA9IDA7IGogPCBoZWlnaHQ7IGorKykgewogICAgICAgICAgICAgICAgaWYgKGogPD0gaSkgewogICAgICAgICAgICAgICAgICAgIFN5c3RlbS5vdXQucHJpbnQoIioiKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oKTsKICAgICAgICB9CiAgICB9</text>
       </register>
       <register name="6" type="4">
-        <text>while (numer != 10);
-        System.out.println(&quot;Gratulacje&quot;);</text>
+        <text encoding="base64">Zm9yIChpbnQgaj0wO2o8MTA7aisrKQogICAgICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKCIqIik7</text>
       </register>
       <register name="w" type="4">
         <text encoding="base64">ZSA=</text>
       </register>
       <register name="7" type="4">
-        <text>numer=scaner.nextInt();
-        System.out.println(numer);</text>
+        <text encoding="base64">CiAgICAgICAgaWYoKQogICAgICAgIHsKCiAgICAgICAgfQ==</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="8" type="4">
+        <text encoding="base64">IGlmKGE+Ynx8Yj5jKQogICAgICAgIHsKCiAgICAgICAg</text>
       </register>
       <register name="9" type="4">
-        <text>int =8;
-        int = 5;</text>
+        <text encoding="base64">IGxpY3piYTI9bGljemJhOwogICAgICAgIGxpY3piYTE9bGljemJhMi9saWN6YmEyOw==</text>
       </register>
       <register name="-" type="4">
-        <text>**************************&quot;</text>
+        <text encoding="base64">IHB1YmxpYyBzdGF0aWMgdm9pZCBtYWluKFN0cmluZ1tdIGFyZ3MpIHs=</text>
       </register>
     </registers>
     <search>
