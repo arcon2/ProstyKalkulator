@@ -3,7 +3,7 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="/Dummy.txt" timestamp="1520790102358">
+      <file name="/Dummy.txt" timestamp="1521132692097">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="H:/Java2/Java21days/src/Tablice.java" timestamp="1521131677064">
@@ -14,6 +14,9 @@
       </file>
       <file name="H:/Java2/Java21days/src/Petle.java" timestamp="1521131668463">
         <mark key="[" line="0" column="19" />
+      </file>
+      <file name="H:/Java2/Java21days/src/Instrukcje.java" timestamp="1521132764276">
+        <mark key="[" line="0" column="23" />
       </file>
       <file name="/a.dummy" timestamp="1521131638490">
         <mark key="[" line="0" column="0" />
@@ -59,7 +62,7 @@
         <mark key="]" line="14" column="16" />
         <mark key="." line="14" column="16" />
       </file>
-      <file name="/fragment.java" timestamp="1520793585603">
+      <file name="/fragment.java" timestamp="1521132589639">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="H:/Java2/Java21days/src/DzienCzwartyCwiczenie02.java" timestamp="1520928905943">
