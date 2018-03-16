@@ -9,10 +9,10 @@
         <mark key="^" line="18" column="15" />
         <mark key="." line="18" column="15" />
       </file>
-      <file name="H:/Java2/Java21days/src/LiczbaPierwsza.java" timestamp="1521223038607">
-        <mark key="[" line="10" column="0" />
-        <mark key="]" line="12" column="0" />
-        <mark key="." line="12" column="0" />
+      <file name="H:/Java2/Java21days/src/LiczbaPierwsza.java" timestamp="1521225608926">
+        <mark key="[" line="15" column="27" />
+        <mark key="]" line="15" column="27" />
+        <mark key="." line="15" column="27" />
       </file>
       <file name="H:/Java2/Java21days/src/Instrukcje.java" timestamp="1521137419513">
         <mark key="[" line="10" column="0" />
@@ -123,7 +123,7 @@
         <text encoding="base64">cHVibGljIHN0YXRpYyB2b2lkIG1haW4oU3RyaW5nW10gYXJncykgewovLyAgICAgICAgaW50IHd5bWlhciA9IDQ7Ci8vICAgICAgICBmb3IgKGludCBpID0gMDsgaSA8IHd5bWlhcjsgaSsrKSB7Ci8vICAgICAgICAgICAgZm9yIChpbnQgaiA9IDA7IGogPCB3eW1pYXI7IGorKykgewovLyAgICAgICAgICAgICAgICBpZiAoaiA8PSBpKQovLyAgICAgICAgICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludCgiKiIpOwovLyAgICAgICAgICAgIH0KLy8gICAgICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oKTsKLy8gICAgICAgIH0KLy8KLy8KLy8gICAgfQ==</text>
       </register>
       <register name="&quot;" type="4">
-        <text encoding="base64">cHVibGljIHN0YXRpYyB2b2lkIG1haW4oU3RyaW5nW10gYXJncykgewovLyAgICAgICAgaW50IHd5bWlhciA9IDQ7Ci8vICAgICAgICBmb3IgKGludCBpID0gMDsgaSA8IHd5bWlhcjsgaSsrKSB7Ci8vICAgICAgICAgICAgZm9yIChpbnQgaiA9IDA7IGogPCB3eW1pYXI7IGorKykgewovLyAgICAgICAgICAgICAgICBpZiAoaiA8PSBpKQovLyAgICAgICAgICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludCgiKiIpOwovLyAgICAgICAgICAgIH0KLy8gICAgICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oKTsKLy8gICAgICAgIH0KLy8KLy8KLy8gICAgfQ==</text>
+        <text>liczba*0.</text>
       </register>
       <register name="2" type="4">
         <text encoding="base64">IGludCBoZWlnaHQgPSA0OwogICAgICAgIGZvciAoaW50IGkgPSAwOyBpIDwgaGVpZ2h0OyBpKyspIHsKICAgICAgICAgICAgZm9yIChpbnQgaiA9IDA7IGogPCBoZWlnaHQ7IGorKykgewogICAgICAgICAgICAgICAgLy9pZiAoaiA8PSBpKSB7CiAgICAgICAgICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludCgiKiIpOwogICAgICAgICAgICAgICAgLy99CiAgICAgICAgICAgIH0KICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKCk7CiAgICAgICAgfQ==</text>
@@ -153,7 +153,7 @@
         <text encoding="base64">IGlmKGE+Ynx8Yj5jKQogICAgICAgIHsKCiAgICAgICAg</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IHB1YmxpYyBzdGF0aWMgdm9pZCBtYWluKFN0cmluZ1tdIGFyZ3MpIHs=</text>
+        <text>liczba*0.</text>
       </register>
     </registers>
     <search>
