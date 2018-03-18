@@ -25,12 +25,6 @@
       <file name="/a.dummy" timestamp="1521131638490">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="H:/Java2/Java21days/src/DzienDrugiCwiczenie01.java" timestamp="1520928924521">
-        <mark key="'" line="16" column="0" />
-        <mark key="[" line="14" column="0" />
-        <mark key="]" line="16" column="1" />
-        <mark key="." line="16" column="1" />
-      </file>
       <file name="H:/Java2/Java21days/src/Petla.java" timestamp="1521131554426">
         <mark key="[" line="33" column="4" />
         <mark key="]" line="28" column="16" />
@@ -57,6 +51,12 @@
       <file name="H:/Java2/Java21days/src/PobieranieDanych.java" timestamp="1521138430244">
         <mark key="[" line="18" column="0" />
       </file>
+      <file name="H:/Java2/Java21days/src/OperacjeNaZmiennych.java" timestamp="1521369034237">
+        <mark key="[" line="7" column="39" />
+        <mark key="]" line="6" column="39" />
+        <mark key="^" line="6" column="39" />
+        <mark key="." line="6" column="39" />
+      </file>
       <file name="H:/Java2/Java21days/src/Operator.java" timestamp="1521137896297">
         <mark key="[" line="0" column="22" />
       </file>
@@ -71,6 +71,11 @@
       </file>
       <file name="H:/Java2/Java21days/src/Petle.java" timestamp="1521137342758">
         <mark key="[" line="9" column="20" />
+      </file>
+      <file name="H:/Java2/Java21days/src/ZmiennaChar.java" timestamp="1521369379389">
+        <mark key="[" line="6" column="8" />
+        <mark key="]" line="6" column="8" />
+        <mark key="." line="6" column="8" />
       </file>
       <file name="H:/Java 2/hello/src/sample/sample.fxml" timestamp="1520884963170">
         <mark key="[" line="0" column="10" />
@@ -123,7 +128,7 @@
         <text encoding="base64">cHVibGljIHN0YXRpYyB2b2lkIG1haW4oU3RyaW5nW10gYXJncykgewovLyAgICAgICAgaW50IHd5bWlhciA9IDQ7Ci8vICAgICAgICBmb3IgKGludCBpID0gMDsgaSA8IHd5bWlhcjsgaSsrKSB7Ci8vICAgICAgICAgICAgZm9yIChpbnQgaiA9IDA7IGogPCB3eW1pYXI7IGorKykgewovLyAgICAgICAgICAgICAgICBpZiAoaiA8PSBpKQovLyAgICAgICAgICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludCgiKiIpOwovLyAgICAgICAgICAgIH0KLy8gICAgICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oKTsKLy8gICAgICAgIH0KLy8KLy8KLy8gICAgfQ==</text>
       </register>
       <register name="&quot;" type="4">
-        <text>liczba*0.</text>
+        <text>System.out.println(++letter);</text>
       </register>
       <register name="2" type="4">
         <text encoding="base64">IGludCBoZWlnaHQgPSA0OwogICAgICAgIGZvciAoaW50IGkgPSAwOyBpIDwgaGVpZ2h0OyBpKyspIHsKICAgICAgICAgICAgZm9yIChpbnQgaiA9IDA7IGogPCBoZWlnaHQ7IGorKykgewogICAgICAgICAgICAgICAgLy9pZiAoaiA8PSBpKSB7CiAgICAgICAgICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludCgiKiIpOwogICAgICAgICAgICAgICAgLy99CiAgICAgICAgICAgIH0KICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKCk7CiAgICAgICAgfQ==</text>
@@ -153,7 +158,7 @@
         <text encoding="base64">IGlmKGE+Ynx8Yj5jKQogICAgICAgIHsKCiAgICAgICAg</text>
       </register>
       <register name="-" type="4">
-        <text>liczba*0.</text>
+        <text>System.out.println(++letter);</text>
       </register>
     </registers>
     <search>
