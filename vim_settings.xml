@@ -57,10 +57,17 @@
         <mark key="^" line="6" column="39" />
         <mark key="." line="6" column="39" />
       </file>
+      <file name="H:/Java2/Java21days/src/ZmienneOperacje.java" timestamp="1521370422633">
+        <mark key="'" line="5" column="38" />
+        <mark key="[" line="7" column="0" />
+        <mark key="]" line="5" column="38" />
+        <mark key="^" line="5" column="38" />
+        <mark key="." line="5" column="38" />
+      </file>
       <file name="H:/Java2/Java21days/src/Operator.java" timestamp="1521137896297">
         <mark key="[" line="0" column="22" />
       </file>
-      <file name="/Dummy.txt" timestamp="1521146692363">
+      <file name="/Dummy.txt" timestamp="1521370543949">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="H:/Java2/Java21days/src/Tablice.java" timestamp="1521131677064">
@@ -110,6 +117,9 @@
         <mark key="]" line="14" column="16" />
         <mark key="." line="14" column="16" />
       </file>
+      <file name="H:/Java2/Java21days/src/ZmiennaDouble.java" timestamp="1521370094641">
+        <mark key="[" line="0" column="26" />
+      </file>
       <file name="/fragment.java" timestamp="1521132589639">
         <mark key="[" line="0" column="0" />
       </file>
@@ -122,6 +132,7 @@
     <jumps>
       <jump line="14" column="4" filename="H:/Java2/Java21days/src/DzienDrugiCwiczenie01.java" />
       <jump line="15" column="0" filename="H:/Java2/Java21days/src/DzienDrugiCwiczenie01.java" />
+      <jump line="5" column="38" filename="H:/Java2/Java21days/src/ZmienneOperacje.java" />
     </jumps>
     <registers>
       <register name="1" type="4">
