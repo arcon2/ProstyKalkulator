@@ -120,7 +120,7 @@
       <file name="H:/Java2/Java21days/src/ZmiennaDouble.java" timestamp="1521370094641">
         <mark key="[" line="0" column="26" />
       </file>
-      <file name="/fragment.java" timestamp="1521394130776">
+      <file name="/fragment.java" timestamp="1521394496770">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="H:/Java2/Java21days/src/DzienCzwartyCwiczenie02.java" timestamp="1520928905943">
@@ -139,7 +139,7 @@
         <text encoding="base64">cHVibGljIHN0YXRpYyB2b2lkIG1haW4oU3RyaW5nW10gYXJncykgewovLyAgICAgICAgaW50IHd5bWlhciA9IDQ7Ci8vICAgICAgICBmb3IgKGludCBpID0gMDsgaSA8IHd5bWlhcjsgaSsrKSB7Ci8vICAgICAgICAgICAgZm9yIChpbnQgaiA9IDA7IGogPCB3eW1pYXI7IGorKykgewovLyAgICAgICAgICAgICAgICBpZiAoaiA8PSBpKQovLyAgICAgICAgICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludCgiKiIpOwovLyAgICAgICAgICAgIH0KLy8gICAgICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oKTsKLy8gICAgICAgIH0KLy8KLy8KLy8gICAgfQ==</text>
       </register>
       <register name="&quot;" type="4">
-        <text>System.out.println(++letter);</text>
+        <text>Radek</text>
       </register>
       <register name="2" type="4">
         <text encoding="base64">IGludCBoZWlnaHQgPSA0OwogICAgICAgIGZvciAoaW50IGkgPSAwOyBpIDwgaGVpZ2h0OyBpKyspIHsKICAgICAgICAgICAgZm9yIChpbnQgaiA9IDA7IGogPCBoZWlnaHQ7IGorKykgewogICAgICAgICAgICAgICAgLy9pZiAoaiA8PSBpKSB7CiAgICAgICAgICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludCgiKiIpOwogICAgICAgICAgICAgICAgLy99CiAgICAgICAgICAgIH0KICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKCk7CiAgICAgICAgfQ==</text>
@@ -169,7 +169,7 @@
         <text encoding="base64">IGlmKGE+Ynx8Yj5jKQogICAgICAgIHsKCiAgICAgICAg</text>
       </register>
       <register name="-" type="4">
-        <text>System.out.println(++letter);</text>
+        <text>Radek</text>
       </register>
     </registers>
     <search>
