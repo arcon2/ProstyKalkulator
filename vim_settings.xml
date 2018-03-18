@@ -97,6 +97,11 @@
         <mark key="]" line="20" column="28" />
         <mark key="." line="20" column="28" />
       </file>
+      <file name="H:/Java 2/Kalkulator/src/Kalkulator.java" timestamp="1521395482403">
+        <mark key="[" line="222" column="18" />
+        <mark key="]" line="222" column="18" />
+        <mark key="." line="222" column="18" />
+      </file>
       <file name="H:/Java2/Java21days/src/Gwiazdki.java" timestamp="1521224328345">
         <mark key="[" line="3" column="6" />
         <mark key="]" line="3" column="6" />
@@ -139,7 +144,7 @@
         <text encoding="base64">cHVibGljIHN0YXRpYyB2b2lkIG1haW4oU3RyaW5nW10gYXJncykgewovLyAgICAgICAgaW50IHd5bWlhciA9IDQ7Ci8vICAgICAgICBmb3IgKGludCBpID0gMDsgaSA8IHd5bWlhcjsgaSsrKSB7Ci8vICAgICAgICAgICAgZm9yIChpbnQgaiA9IDA7IGogPCB3eW1pYXI7IGorKykgewovLyAgICAgICAgICAgICAgICBpZiAoaiA8PSBpKQovLyAgICAgICAgICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludCgiKiIpOwovLyAgICAgICAgICAgIH0KLy8gICAgICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oKTsKLy8gICAgICAgIH0KLy8KLy8KLy8gICAgfQ==</text>
       </register>
       <register name="&quot;" type="4">
-        <text />
+        <text>25</text>
       </register>
       <register name="2" type="4">
         <text encoding="base64">IGludCBoZWlnaHQgPSA0OwogICAgICAgIGZvciAoaW50IGkgPSAwOyBpIDwgaGVpZ2h0OyBpKyspIHsKICAgICAgICAgICAgZm9yIChpbnQgaiA9IDA7IGogPCBoZWlnaHQ7IGorKykgewogICAgICAgICAgICAgICAgLy9pZiAoaiA8PSBpKSB7CiAgICAgICAgICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludCgiKiIpOwogICAgICAgICAgICAgICAgLy99CiAgICAgICAgICAgIH0KICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKCk7CiAgICAgICAgfQ==</text>
@@ -169,7 +174,7 @@
         <text encoding="base64">IGlmKGE+Ynx8Yj5jKQogICAgICAgIHsKCiAgICAgICAg</text>
       </register>
       <register name="-" type="4">
-        <text />
+        <text>25</text>
       </register>
     </registers>
     <search>
