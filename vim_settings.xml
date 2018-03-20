@@ -30,13 +30,17 @@
         <mark key="]" line="28" column="16" />
         <mark key="." line="28" column="16" />
       </file>
+      <file name="H:/Java2/Kalkulator/src/Kalkulator.java" timestamp="1521568417017">
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
       <file name="H:/Java2/Java21days/src/DzienCzwartyCwiczenie01.java" timestamp="1520928912683">
         <mark key="[" line="10" column="1" />
         <mark key="]" line="10" column="1" />
         <mark key="." line="10" column="1" />
       </file>
-      <file name="H:/Java2/Java21days/src/Alfabet.java" timestamp="1521398448598">
-        <mark key="[" line="8" column="33" />
+      <file name="H:/Java2/Java21days/src/Alfabet.java" timestamp="1521568257570">
+        <mark key="[" line="3" column="35" />
         <mark key="]" line="8" column="33" />
         <mark key="^" line="8" column="33" />
         <mark key="." line="8" column="33" />
@@ -73,7 +77,7 @@
       <file name="H:/Java2/Java21days/src/Operator.java" timestamp="1521137896297">
         <mark key="[" line="0" column="22" />
       </file>
-      <file name="/Dummy.txt" timestamp="1521370543949">
+      <file name="/Dummy.txt" timestamp="1521568364706">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="H:/Java2/Java21days/src/Tablice.java" timestamp="1521131677064">
@@ -150,7 +154,7 @@
         <text encoding="base64">cHVibGljIHN0YXRpYyB2b2lkIG1haW4oU3RyaW5nW10gYXJncykgewovLyAgICAgICAgaW50IHd5bWlhciA9IDQ7Ci8vICAgICAgICBmb3IgKGludCBpID0gMDsgaSA8IHd5bWlhcjsgaSsrKSB7Ci8vICAgICAgICAgICAgZm9yIChpbnQgaiA9IDA7IGogPCB3eW1pYXI7IGorKykgewovLyAgICAgICAgICAgICAgICBpZiAoaiA8PSBpKQovLyAgICAgICAgICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludCgiKiIpOwovLyAgICAgICAgICAgIH0KLy8gICAgICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oKTsKLy8gICAgICAgIH0KLy8KLy8KLy8gICAgfQ==</text>
       </register>
       <register name="&quot;" type="4">
-        <text>25</text>
+        <text>}</text>
       </register>
       <register name="2" type="4">
         <text encoding="base64">IGludCBoZWlnaHQgPSA0OwogICAgICAgIGZvciAoaW50IGkgPSAwOyBpIDwgaGVpZ2h0OyBpKyspIHsKICAgICAgICAgICAgZm9yIChpbnQgaiA9IDA7IGogPCBoZWlnaHQ7IGorKykgewogICAgICAgICAgICAgICAgLy9pZiAoaiA8PSBpKSB7CiAgICAgICAgICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludCgiKiIpOwogICAgICAgICAgICAgICAgLy99CiAgICAgICAgICAgIH0KICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKCk7CiAgICAgICAgfQ==</text>
@@ -180,7 +184,7 @@
         <text encoding="base64">IGlmKGE+Ynx8Yj5jKQogICAgICAgIHsKCiAgICAgICAg</text>
       </register>
       <register name="-" type="4">
-        <text>25</text>
+        <text>}</text>
       </register>
     </registers>
     <search>
